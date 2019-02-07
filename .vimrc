@@ -7,6 +7,7 @@ set helplang=ja,en
 call plug#begin('~/.vim/plugged')
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-jp/vimdoc-ja'
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
@@ -15,6 +16,8 @@ inoremap <C-j> <C-x><C-o>
 
 " x でヤンクしない
 nnoremap x "_x
+
+tnoremap <Esc> <C-\><C-n>
 
 
 
